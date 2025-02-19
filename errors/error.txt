@@ -1,0 +1,657 @@
+Microsoft Windows [Version 10.0.22621.2715]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\anubh>cd C:\Users\anubh\Downloads\OSWE Labs\OSWE-Labs-Poc\DotNetNuke-DNN\dnn-platform-9.1.1.129-232>
+The syntax of the command is incorrect.
+
+C:\Users\anubh>cd C:\Users\anubh\Downloads\OSWE Labs\OSWE-Labs-Poc\DotNetNuke-DNN\dnn-platform-9.1.1.129-232
+
+C:\Users\anubh\Downloads\OSWE Labs\OSWE-Labs-Poc\DotNetNuke-DNN\dnn-platform-9.1.1.129-232>dir
+ Volume in drive C is OS
+ Volume Serial Number is 702B-8831
+
+ Directory of C:\Users\anubh\Downloads\OSWE Labs\OSWE-Labs-Poc\DotNetNuke-DNN\dnn-platform-9.1.1.129-232
+
+19-02-2025  14:04    <DIR>          .
+19-02-2025  14:04    <DIR>          ..
+19-02-2025  14:04               116 docker-compose.yml
+20-02-2025  02:47             2,653 Dockerfile
+               2 File(s)          2,769 bytes
+               2 Dir(s)  32,046,743,552 bytes free
+
+C:\Users\anubh\Downloads\OSWE Labs\OSWE-Labs-Poc\DotNetNuke-DNN\dnn-platform-9.1.1.129-232>cd ..
+
+C:\Users\anubh\Downloads\OSWE Labs\OSWE-Labs-Poc\DotNetNuke-DNN>dir
+ Volume in drive C is OS
+ Volume Serial Number is 702B-8831
+
+ Directory of C:\Users\anubh\Downloads\OSWE Labs\OSWE-Labs-Poc\DotNetNuke-DNN
+
+19-02-2025  14:04    <DIR>          .
+19-02-2025  14:04    <DIR>          ..
+19-02-2025  14:04    <DIR>          dnn-platform-9.1.1.129-232
+19-02-2025  14:04    <DIR>          mssql-server-linux
+19-02-2025  14:04    <DIR>          mssql-server-windows-express
+19-02-2025  14:04               665 README.md
+               1 File(s)            665 bytes
+               5 Dir(s)  32,046,809,088 bytes free
+
+C:\Users\anubh\Downloads\OSWE Labs\OSWE-Labs-Poc\DotNetNuke-DNN>cd mssql-server-linux
+
+C:\Users\anubh\Downloads\OSWE Labs\OSWE-Labs-Poc\DotNetNuke-DNN\mssql-server-linux>cd ..
+
+C:\Users\anubh\Downloads\OSWE Labs\OSWE-Labs-Poc\DotNetNuke-DNN>cd mssql-server-windows-express
+
+C:\Users\anubh\Downloads\OSWE Labs\OSWE-Labs-Poc\DotNetNuke-DNN\mssql-server-windows-express>dir
+ Volume in drive C is OS
+ Volume Serial Number is 702B-8831
+
+ Directory of C:\Users\anubh\Downloads\OSWE Labs\OSWE-Labs-Poc\DotNetNuke-DNN\mssql-server-windows-express
+
+19-02-2025  14:04    <DIR>          .
+19-02-2025  14:04    <DIR>          ..
+19-02-2025  14:04               165 docker-compose.yml
+19-02-2025  14:04             1,921 dockerfile
+               2 File(s)          2,086 bytes
+               2 Dir(s)  31,995,387,904 bytes free
+
+C:\Users\anubh\Downloads\OSWE Labs\OSWE-Labs-Poc\DotNetNuke-DNN\mssql-server-windows-express>docker-compose up -d
+time="2025-02-20T03:16:52+05:30" level=warning msg="C:\\Users\\anubh\\Downloads\\OSWE Labs\\OSWE-Labs-Poc\\DotNetNuke-DNN\\mssql-server-windows-express\\docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion"
+[+] Running 1/1
+ ! mssql Warning pull access denied for mssql-windows, repository does not exist or may require 'docker login': denied: requested ac...               10.7s
+[+] Running 0/1
+ - Service mssql  Building                                                                                                                             0.1s
+[+] Running 0/1ontext to Docker daemon  1.139kB
+ - Service mssql  Building                                                                                                                            10.9s
+pull access denied for microsoft/windowsservercore, repository does not exist or may require 'docker login': denied: requested access to the resource is denied
+
+C:\Users\anubh\Downloads\OSWE Labs\OSWE-Labs-Poc\DotNetNuke-DNN\mssql-server-windows-express>docker-compose up -d
+time="2025-02-20T03:19:28+05:30" level=warning msg="C:\\Users\\anubh\\Downloads\\OSWE Labs\\OSWE-Labs-Poc\\DotNetNuke-DNN\\mssql-server-windows-express\\docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion"
+[+] Running 1/1
+ ! mssql Warning pull access denied for mssql-windows, repository does not exist or may require 'docker login': denied: requested ac...                9.1s
+[+] Running 0/1
+ - Service mssql  Building                                                                                                                             0.4s
+[+] Running 0/1ontext to Docker daemon  1.139kB
+ - Service mssql  Building                                                                                                                             7.5s
+pull access denied for microsoft/windowsservercore, repository does not exist or may require 'docker login': denied: requested access to the resource is denied
+
+C:\Users\anubh\Downloads\OSWE Labs\OSWE-Labs-Poc\DotNetNuke-DNN\mssql-server-windows-express>docker-compose up -d
+time="2025-02-20T03:20:28+05:30" level=warning msg="C:\\Users\\anubh\\Downloads\\OSWE Labs\\OSWE-Labs-Poc\\DotNetNuke-DNN\\mssql-server-windows-express\\docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion"
+[+] Running 1/1
+ ! mssql Warning pull access denied for mssql-windows, repository does not exist or may require 'docker login': denied: requested ac...               14.4s
+[+] Running 0/1
+[+] Running 0/1l  Building                                                                                                                             0.5s
+[+] Running 0/1M mcr.microsoft.com/windows/servercore:ltsc2019
+[+] Running 0/1l  Building                                                                                                                             6.7s
+Already exists l  Building                                                                                                                            13.1s
+ - Service mssql  Building                                                                                                                            13.2s
+17fa36014f7b: Already exists
+Digest: sha256:2bacc4bdc5d1bd805587cb90a2fb2d58d1c775b02df1a19fd221cbfc639ff587
+Status: Downloaded newer image for mcr.microsoft.com/windows/servercore:ltsc2019
+[+] Running 0/1cee
+[+] Running 0/1l  Building                                                                                                                            13.9s
+ - Service mssql  Building                                                                                                                            14.7s
+ ---> Removed intermediate container b7dd66d619bc
+[+] Running 0/1cf5
+[+] Running 0/1l  Building                                                                                                                            15.0s
+ - Service mssql  Building                                                                                                                            15.5s
+ ---> Removed intermediate container ed5996559129
+[+] Running 0/15da
+[+] Running 0/1l  Building                                                                                                                            15.8s
+ - Service mssql  Building                                                                                                                            16.2s
+ ---> Removed intermediate container 6d86b50eb4b5
+[+] Running 0/1bf7
+[+] Running 0/1l  Building                                                                                                                            16.5s
+ - Service mssql  Building                                                                                                                            37.3s
+
+Windows IP Configuration
+
+
+Ethernet adapter Ethernet:
+
+   Connection-specific DNS Suffix  . :
+   Link-local IPv6 Address . . . . . : fe80::a7f:c72c:ea02:9cdb%4
+   IPv4 Address. . . . . . . . . . . : 172.25.133.179
+[+] Running 0/1. . . . . . . . . . . : 255.255.240.0
+[+] Running 0/1l  Building                                                                                                                            45.3s
+ ---> f812113a37bcrmediate container eb4f69e2050e
+[+] Running 0/1l  Building                                                                                                                            45.4s
+[+] Running 0/1l  Building                                                                                                                            45.6s
+[+] Running 0/1l  Building                                                                                                                            65.8s
+ - Service mssql  Building                                                                                                                            65.9s
+Server:  UnKnown
+Address:  172.25.128.1
+
+Name:    www.google.com
+Addresses:  2404:6800:4009:82c::2004
+[+] Running 0/150.66.4
+ - Service mssql  Building                                                                                                                            72.4s
+ ---> Removed intermediate container f760d9054de6
+ ---> ab0b59805fc7
+Step 7/15 : RUN Invoke-WebRequest -Uri $env:sql_express_download_url -OutFile sqlexpress.exe ;     Start-Process -Wait -FilePath .\sqlexpress.exe -ArgumentList /qs, /x:setup ;     .\setup\setup.exe /q /ACTION=Install /INSTANCENAME=SQLEXPRESS /FEATURES=SQLEngine /UPDATEENABLED=0 /SQLSVCACCOUNT='NT AUTHORITY\\Sys[+] Running 0/1INACCOUNTS='BUILTIN\\ADMINISTRATORS' /TCPENABLED=1 /NPENABLED=0 /IACCEPTSQLSERVERLICENSETERMS ;     Remove-Item -Recurse -Force sqlexpress.ex
+[+] Running 0/1l  Building                                                                                                                            72.6s
+ - Service mssql  Building                                                                                                                           131.3s
+Microsoft .NET Framework CasPol 4.7.3190.0
+for Microsoft .NET Framework version 4.7.3190.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+WARNING: The .NET Framework does not apply CAS policy by default. Any settings
+shown or modified by CasPol will only affect applications that opt into using
+CAS policy.
+
+Please see http://go.microsoft.com/fwlink/?LinkId=131738 for more information.
+Successning 0/1
+[+] Running 0/1l  Building                                                                                                                           131.9s
+ - Service mssql  Building                                                                                                                           133.3s
+Microsoft .NET Framework CasPol 4.7.3190.0
+for Microsoft .NET Framework version 4.7.3190.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+WARNING: The .NET Framework does not apply CAS policy by default. Any settings
+shown or modified by CasPol will only affect applications that opt into using
+CAS policy.
+
+Please see http://go.microsoft.com/fwlink/?LinkId=131738 for more information.
+[+] Running 0/1
+[+] Running 0/1l  Building                                                                                                                           133.8s
+ - Service mssql  Building                                                                                                                           135.3s
+[+] Running 0/1 transmits information about your installation experience, as well as other usage and performance data, to Microsoft to help improve the prod
+ - Service mssql  Building                                                                                                                           460.8s
+Microsoft (R) SQL Server 2017 14.00.1000.169
+[+] Running 0/1017 Microsoft.  All rights reserved.
+ - Service mssql  Building                                                                                                                           560.0s
+ ---> Removed intermediate container e345d1bb8e24
+ ---> d3008241365a
+Step 8/15 : RUN stop-service MSSQL`$SQLEXPRESS ;     set-itemproperty -path 'HKLM:\\software\\microsoft\\microsoft sql server\\mssql14.SQLEXPRESS\\mssqlserver\\supersocketnetlib\\tcp\\ipall' -name tcpdynamicports -value '' ;     set-itemproperty -path 'HKLM:\\software\\microsoft\\microsoft sql server\\mssql14.S[+] Running 0/1lserver\\supersocketnetlib\\tcp\\ipall' -name tcpport -value 1433 ;     set-itemproperty -path 'HKLM:\\software\\microsoft\\microsoft sql ser
+[+] Running 0/1l  Building                                                                                                                           560.4s
+ - Service mssql  Building                                                                                                                           588.6s
+[+] Running 0/1g for service 'SQL Server (SQLEXPRESS) (MSSQL$SQLEXPRESS)' to
+ - Service mssql  Building                                                                                                                           590.7s
+[+] Running 0/1g for service 'SQL Server (SQLEXPRESS) (MSSQL$SQLEXPRESS)' to
+ - Service mssql  Building                                                                                                                           592.8s
+[+] Running 0/1g for service 'SQL Server (SQLEXPRESS) (MSSQL$SQLEXPRESS)' to
+ - Service mssql  Building                                                                                                                           603.4s
+ ---> Removed intermediate container 4b7c452a2114
+[+] Running 0/1927
+[+] Running 0/1l  Building                                                                                                                           603.7s
+ - Service mssql  Building                                                                                                                           604.2s
+ ---> Removed intermediate container 0d6f8a6f96c9
+[+] Running 0/16aa
+[+] Running 0/1l  Building                                                                                                                           604.5s
+ - Service mssql  Building                                                                                                                           604.9s
+ ---> Removed intermediate container d2862f27fbf4
+[+] Running 0/19bd
+[+] Running 0/1l  Building                                                                                                                           605.2s
+ - Service mssql  Building                                                                                                                           627.6s
+Write-Verbose : A positional parameter cannot be found that accepts argument
+'SQL'.
+At line:1 char:76
++ ... rence = 'SilentlyContinue'; Write-Verbose Starting SQL Server ; start ...
++                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Write-Verbose], ParentCont
+   ainsErrorRecordException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,Microsoft.PowerShell
+[+] Running 0/1iteVerboseCommand
+ - Service mssql  Building                                                                                                                           634.3s
+The command 'powershell -Command $ErrorActionPreference = 'Stop'; $ProgressPreference = 'SilentlyContinue'; Write-Verbose "Starting SQL Server" ;     start-service MSSQL`$SQLEXPRESS ;' returned a non-zero code: 1
+
+C:\Users\anubh\Downloads\OSWE Labs\OSWE-Labs-Poc\DotNetNuke-DNN\mssql-server-windows-express>docker-compose up -d
+time="2025-02-20T03:33:36+05:30" level=warning msg="C:\\Users\\anubh\\Downloads\\OSWE Labs\\OSWE-Labs-Poc\\DotNetNuke-DNN\\mssql-server-windows-express\\docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion"
+[+] Running 1/1
+ ! mssql Warning pull access denied for mssql-windows, repository does not exist or may require 'docker login': denied: requested ac...                7.7s
+[+] Running 0/1
+ - Service mssql  Building                                                                                                                             0.3s
+Sending build context to Docker daemon  1.176kB
+Step 1/15 : FROM mcr.microsoft.com/windows/servercore:ltsc2019
+ ---> 73684753fcee
+ ---> d9f7ee306cf5l_express_download_url "https://go.microsoft.com/fwlink/?linkid=829176"
+Step 3/15 : ENV sa_password="P@ssw0rd"
+[+] Running 0/1
+ - Service mssql  Building                                                                                                                             0.4s
+ ---> Using cache
+ ---> be3922efd5da
+Step 4/15 : SHELL ["powershell", "-Command", "$ErrorActionPreference = 'Stop'; $ProgressPreference = 'SilentlyContinue';"]
+ ---> Using cache
+ ---> 47a3e933fbf7
+Step 5/15 : RUN cmd /c ipconfig
+ ---> Using cache
+ ---> f812113a37bc
+Step 6/15 : RUN cmd /c nslookup www.google.com
+ ---> Using cache
+ ---> ab0b59805fc7
+Step 7/15 : RUN Invoke-WebRequest -Uri $env:sql_express_download_url -OutFile sqlexpress.exe ;     Start-Process -Wait -FilePath .\sqlexpress.exe -ArgumentList /qs, /x:setup ;     .\setup\setup.exe /q /ACTION=Install /INSTANCENAME=SQLEXPRESS /FEATURES=SQLEngine /UPDATEENABLED=0 /SQLSVCACCOUNT='NT AUTHORITY\\System' /SQLSYSADMINACCOUNTS='BUILTIN\\ADMINISTRATORS' /TCPENABLED=1 /NPENABLED=0 /IACCEPTSQLSERVERLICENSETERMS ;     Remove-Item -Recurse -Force sqlexpress.exe, setup
+ ---> Using cache
+ ---> d3008241365a
+Step 8/15 : RUN stop-service MSSQL`$SQLEXPRESS ;     set-itemproperty -path 'HKLM:\\software\\microsoft\\microsoft sql server\\mssql14.SQLEXPRESS\\mssqlserver\\supersocketnetlib\\tcp\\ipall' -name tcpdynamicports -value '' ;     set-itemproperty -path 'HKLM:\\software\\microsoft\\microsoft sql server\\mssql14.SQLEXPRESS\\mssqlserver\\supersocketnetlib\\tcp\\ipall' -name tcpport -value 1433 ;     set-itemproperty -path 'HKLM:\\software\\microsoft\\microsoft sql server\\mssql14.SQLEXPRESS\\mssqlserver' -name LoginMode -value 2;
+ ---> Using cache
+ ---> da11df32e927
+Step 9/15 : EXPOSE 1433
+ ---> Using cache
+ ---> 0b538e8506aa
+Step 10/15 : CMD .\start -sa_password $env:sa_password -ACCEPT_EULA $env:ACCEPT_EULA -Verbose
+ ---> Using cache
+[+] Running 0/19bd
+[+] Running 0/1l  Building                                                                                                                             0.7s
+ - Service mssql  Building                                                                                                                            23.5s
+Write-Verbose : A positional parameter cannot be found that accepts argument
+'SQL'.
+At line:1 char:76
++ ... SilentlyContinue'; Write-Verbose Starting SQL Server -Verbose ; Start ...
++                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Write-Verbose], ParentCont
+   ainsErrorRecordException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,Microsoft.PowerShell
+[+] Running 0/1iteVerboseCommand
+ - Service mssql  Building                                                                                                                            30.0s
+The command 'powershell -Command $ErrorActionPreference = 'Stop'; $ProgressPreference = 'SilentlyContinue'; Write-Verbose "Starting SQL Server" -Verbose ;     Start-Service -Name 'MSSQL$SQLEXPRESS' -ErrorAction Stop ;' returned a non-zero code: 1
+
+C:\Users\anubh\Downloads\OSWE Labs\OSWE-Labs-Poc\DotNetNuke-DNN\mssql-server-windows-express>docker-compose up -d
+time="2025-02-20T03:37:39+05:30" level=warning msg="C:\\Users\\anubh\\Downloads\\OSWE Labs\\OSWE-Labs-Poc\\DotNetNuke-DNN\\mssql-server-windows-express\\docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion"
+[+] Running 1/1
+ ! mssql Warning pull access denied for mssql-windows, repository does not exist or may require 'docker login': denied: requested ac...                6.2s
+[+] Running 0/1
+ - Service mssql  Building                                                                                                                             0.4s
+Sending build context to Docker daemon  1.191kB
+Step 1/15 : FROM mcr.microsoft.com/windows/servercore:ltsc2019
+ ---> 73684753fcee
+Step 2/15 : ENV sql_express_download_url "https://go.microsoft.com/fwlink/?linkid=829176"
+ ---> Using cache
+ ---> d9f7ee306cf5
+Step 3/15 : ENV sa_password="P@ssw0rd"
+ ---> Using cache
+ ---> be3922efd5da
+Step 4/15 : SHELL ["powershell", "-Command", "$ErrorActionPreference = 'Stop'; $ProgressPreference = 'SilentlyContinue';"]
+ ---> Using cache
+ ---> 47a3e933fbf7
+Step 5/15 : RUN cmd /c ipconfig
+ ---> Using cache
+ ---> f812113a37bc
+Step 6/15 : RUN cmd /c nslookup www.google.com
+ ---> Using cache
+ ---> ab0b59805fc7
+Step 7/15 : RUN Invoke-WebRequest -Uri $env:sql_express_download_url -OutFile sqlexpress.exe ;     Start-Process -Wait -FilePath .\sqlexpress.exe -ArgumentList /qs, /x:setup ;     .\setup\setup.exe /q /ACTION=Install /INSTANCENAME=SQLEXPRESS /FEATURES=SQLEngine /UPDATEENABLED=0 /SQLSVCACCOUNT='NT AUTHORITY\\System' /SQLSYSADMINACCOUNTS='BUILTIN\\ADMINISTRATORS' /TCPENABLED=1 /NPENABLED=0 /IACCEPTSQLSERVERLICENSETERMS ;     Remove-Item -Recurse -Force sqlexpress.exe, setup
+ ---> Using cache
+ ---> d3008241365a
+Step 8/15 : RUN stop-service MSSQL`$SQLEXPRESS ;     set-itemproperty -path 'HKLM:\\software\\microsoft\\microsoft sql server\\mssql14.SQLEXPRESS\\mssqlserver\\supersocketnetlib\\tcp\\ipall' -name tcpdynamicports -value '' ;     set-itemproperty -path 'HKLM:\\software\\microsoft\\microsoft sql server\\mssql14.SQLEXPRESS\\mssqlserver\\supersocketnetlib\\tcp\\ipall' -name tcpport -value 1433 ;     set-itemproperty -path 'HKLM:\\software\\microsoft\\microsoft sql server\\mssql14.SQLEXPRESS\\mssqlserver' -name LoginMode -value 2;
+ ---> Using cache
+ ---> da11df32e927
+Step 9/15 : EXPOSE 1433
+ ---> Using cache
+ ---> 0b538e8506aa
+Step 10/15 : CMD .\start -sa_password $env:sa_password -ACCEPT_EULA $env:ACCEPT_EULA -Verbose
+ ---> Using cache
+ ---> dcb7586209bd
+[+] Running 0/1N $VerbosePreference = "Continue"; Write-Verbose -Message "Starting SQL Server" ;     Start-Service -Name 'MSSQL$SQLEXPRESS' -ErrorAction Sto
+[+] Running 0/1l  Building                                                                                                                             0.7s
+ - Service mssql  Building                                                                                                                            35.6s
+ ---> Removed intermediate container db0486e1022e
+ ---> 2cc50cf8663f
+[+] Running 0/1N Write-Verbose "Changing SA login credentials" ;     &sqlcmd -Q "ALTER LOGIN sa with password=" +"'" + $env:sa_password + "'" + ";ALTER LOGI
+[+] Running 0/1l  Building                                                                                                                            35.9s
+ - Service mssql  Building                                                                                                                            59.7s
+Write-Verbose : A positional parameter cannot be found that accepts argument
+'SA'.
+At line:1 char:76
++ ... ilentlyContinue'; Write-Verbose Changing SA login credentials ; &sqlc ...
++                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Write-Verbose], ParentCont
+   ainsErrorRecordException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,Microsoft.PowerShell
+[+] Running 0/1iteVerboseCommand
+ - Service mssql  Building                                                                                                                            66.1s
+The command 'powershell -Command $ErrorActionPreference = 'Stop'; $ProgressPreference = 'SilentlyContinue'; Write-Verbose "Changing SA login credentials" ;     &sqlcmd -Q "ALTER LOGIN sa with password=" +"'" + $env:sa_password + "'" + ";ALTER LOGIN sa ENABLE;" ;' returned a non-zero code: 1
+
+C:\Users\anubh\Downloads\OSWE Labs\OSWE-Labs-Poc\DotNetNuke-DNN\mssql-server-windows-express>docker-compose down
+time="2025-02-20T03:42:39+05:30" level=warning msg="C:\\Users\\anubh\\Downloads\\OSWE Labs\\OSWE-Labs-Poc\\DotNetNuke-DNN\\mssql-server-windows-express\\docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion"
+
+C:\Users\anubh\Downloads\OSWE Labs\OSWE-Labs-Poc\DotNetNuke-DNN\mssql-server-windows-express>docker-compose down
+time="2025-02-20T03:42:52+05:30" level=warning msg="C:\\Users\\anubh\\Downloads\\OSWE Labs\\OSWE-Labs-Poc\\DotNetNuke-DNN\\mssql-server-windows-express\\docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion"
+
+C:\Users\anubh\Downloads\OSWE Labs\OSWE-Labs-Poc\DotNetNuke-DNN\mssql-server-windows-express>docker build --no-cache -t mssql-dnn .
+Sending build context to Docker daemon  4.608kB
+Step 1/14 : FROM mcr.microsoft.com/windows/servercore:ltsc2019
+ ---> 73684753fcee
+Step 2/14 : ENV sql_express_download_url "https://go.microsoft.com/fwlink/?linkid=829176"
+ ---> Running in 0d62b17ee0d6
+ ---> Removed intermediate container 0d62b17ee0d6
+ ---> 53f5a2c4fd11
+Step 3/14 : ENV sa_password="P@ssw0rd"
+ ---> Running in f6fd242c9f47
+ ---> Removed intermediate container f6fd242c9f47
+ ---> ba26701671c4
+Step 4/14 : SHELL ["powershell", "-Command", "$ErrorActionPreference = 'Stop'; $ProgressPreference = 'SilentlyContinue';"]
+ ---> Running in 383a026f9628
+ ---> Removed intermediate container 383a026f9628
+ ---> 6b2201ad4f68
+Step 5/14 : RUN cmd /c ipconfig
+ ---> Running in e29b50b13561
+
+Windows IP Configuration
+
+
+Ethernet adapter Ethernet:
+
+   Connection-specific DNS Suffix  . :
+   Link-local IPv6 Address . . . . . : fe80::7ddc:ddfc:398c:e997%4
+   IPv4 Address. . . . . . . . . . . : 172.25.143.136
+   Subnet Mask . . . . . . . . . . . : 255.255.240.0
+   Default Gateway . . . . . . . . . : 172.25.128.1
+ ---> Removed intermediate container e29b50b13561
+ ---> cc29c0f11359
+Step 6/14 : RUN cmd /c nslookup www.google.com
+ ---> Running in ff2b25bed289
+Non-authoritative answer:
+Server:  UnKnown
+Address:  172.25.128.1
+
+Name:    www.google.com
+Addresses:  2404:6800:4009:82c::2004
+          142.250.66.4
+
+ ---> Removed intermediate container ff2b25bed289
+ ---> 08b6aed8cced
+Step 7/14 : RUN Invoke-WebRequest -Uri $env:sql_express_download_url -OutFile sqlexpress.exe ;     Start-Process -Wait -FilePath .\sqlexpress.exe -ArgumentList /qs, /x:setup ;     .\setup\setup.exe /q /ACTION=Install /INSTANCENAME=SQLEXPRESS /FEATURES=SQLEngine /UPDATEENABLED=0 /SQLSVCACCOUNT='NT AUTHORITY\\System' /SQLSYSADMINACCOUNTS='BUILTIN\\ADMINISTRATORS' /TCPENABLED=1 /NPENABLED=0 /IACCEPTSQLSERVERLICENSETERMS ;     Remove-Item -Recurse -Force sqlexpress.exe, setup
+ ---> Running in db4aead22fc3
+Microsoft .NET Framework CasPol 4.7.3190.0
+for Microsoft .NET Framework version 4.7.3190.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+WARNING: The .NET Framework does not apply CAS policy by default. Any settings
+shown or modified by CasPol will only affect applications that opt into using
+CAS policy.
+
+Please see http://go.microsoft.com/fwlink/?LinkId=131738 for more information.
+
+
+Success
+Microsoft .NET Framework CasPol 4.7.3190.0
+for Microsoft .NET Framework version 4.7.3190.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+WARNING: The .NET Framework does not apply CAS policy by default. Any settings
+shown or modified by CasPol will only affect applications that opt into using
+CAS policy.
+
+Please see http://go.microsoft.com/fwlink/?LinkId=131738 for more information.
+
+
+Success
+SQL Server 2017 transmits information about your installation experience, as well as other usage and performance data, to Microsoft to help improve the product. To learn more about SQL Server 2017 data processing and privacy controls, please see the Privacy Statement.
+Microsoft (R) SQL Server 2017 14.00.1000.169
+Copyright (c) 2017 Microsoft.  All rights reserved.
+
+ ---> Removed intermediate container db4aead22fc3
+ ---> 76637237b9c7
+Step 8/14 : RUN stop-service MSSQL`$SQLEXPRESS ;     set-itemproperty -path 'HKLM:\\software\\microsoft\\microsoft sql server\\mssql14.SQLEXPRESS\\mssqlserver\\supersocketnetlib\\tcp\\ipall' -name tcpdynamicports -value '' ;     set-itemproperty -path 'HKLM:\\software\\microsoft\\microsoft sql server\\mssql14.SQLEXPRESS\\mssqlserver\\supersocketnetlib\\tcp\\ipall' -name tcpport -value 1433 ;     set-itemproperty -path 'HKLM:\\software\\microsoft\\microsoft sql server\\mssql14.SQLEXPRESS\\mssqlserver' -name LoginMode -value 2;
+ ---> Running in 6d61a34848a6
+WARNING: Waiting for service 'SQL Server (SQLEXPRESS) (MSSQL$SQLEXPRESS)' to
+stop...
+WARNING: Waiting for service 'SQL Server (SQLEXPRESS) (MSSQL$SQLEXPRESS)' to
+stop...
+ ---> Removed intermediate container 6d61a34848a6
+ ---> e068b93fc4d8
+Step 9/14 : EXPOSE 1433
+ ---> Running in d769f448b318
+ ---> Removed intermediate container d769f448b318
+ ---> a972b921c2dc
+Step 10/14 : CMD .\start -sa_password $env:sa_password -ACCEPT_EULA $env:ACCEPT_EULA -Verbose
+ ---> Running in db4b9d61014e
+ ---> Removed intermediate container db4b9d61014e
+ ---> d7d8dbb5e93e
+Step 11/14 : RUN $VerbosePreference = "Continue"; Write-Verbose -Message "Starting SQL Server" ;     Start-Service -Name 'MSSQL$SQLEXPRESS' -ErrorAction Stop ;
+ ---> Running in 4e5f6e04f15c
+ ---> Removed intermediate container 4e5f6e04f15c
+ ---> 7c48a4677828
+Step 12/14 : RUN $VerbosePreference = "Continue"; Write-Verbose -Message "Changing SA login credentials" ;     sqlcmd -Q "ALTER LOGIN sa WITH PASSWORD = '$env:sa_password'; ALTER LOGIN sa ENABLE;"
+ ---> Running in d58936d4fb72
+ ---> Removed intermediate container d58936d4fb72
+ ---> 6843d83c16da
+Step 13/14 : RUN Invoke-WebRequest -Uri https://dotnetbinaries.blob.core.windows.net/servicemonitor/2.0.1.1/ServiceMonitor.exe -OutFile C:\ServiceMonitor.exe
+ ---> Running in c17987237db3
+ ---> Removed intermediate container c17987237db3
+ ---> b60164ef9ab4
+Step 14/14 : ENTRYPOINT ["C:\\ServiceMonitor.exe", "MSSQL$SQLEXPRESS"]
+ ---> Running in e57b645b2c19
+ ---> Removed intermediate container e57b645b2c19
+ ---> aea504268875
+Successfully built aea504268875
+Successfully tagged mssql-dnn:latest
+
+C:\Users\anubh\Downloads\OSWE Labs\OSWE-Labs-Poc\DotNetNuke-DNN\mssql-server-windows-express>
+C:\Users\anubh\Downloads\OSWE Labs\OSWE-Labs-Poc\DotNetNuke-DNN\mssql-server-windows-express>docker ps
+CONTAINER ID   IMAGE                    COMMAND                   CREATED          STATUS          PORTS                NAMES
+25e02a809d2d   dnn-platform:9.1.0.367   "C:\\ServiceMonitor.e…"   52 minutes ago   Up 51 minutes   0.0.0.0:80->80/tcp   dnn-platform-911129-232-web-dnn-1
+
+C:\Users\anubh\Downloads\OSWE Labs\OSWE-Labs-Poc\DotNetNuke-DNN\mssql-server-windows-express>docker-compose up -d
+time="2025-02-20T03:55:18+05:30" level=warning msg="C:\\Users\\anubh\\Downloads\\OSWE Labs\\OSWE-Labs-Poc\\DotNetNuke-DNN\\mssql-server-windows-express\\docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion"
+[+] Running 1/1
+ ! mssql Warning pull access denied for mssql-windows, repository does not exist or may require 'docker login': denied: requested ac...               22.4s
+[+] Running 0/1
+[+] Running 0/1l  Building                                                                                                                             0.3s
+ - Service mssql  Building                                                                                                                             0.4s
+Step 1/15 : FROM mcr.microsoft.com/windows/servercore:ltsc2019
+ ---> 73684753fcee
+Step 2/15 : ENV sql_express_download_url "https://go.microsoft.com/fwlink/?linkid=829176"
+ ---> Using cache
+ ---> 53f5a2c4fd11
+Step 3/15 : ENV sa_password="P@ssw0rd"
+ ---> Using cache
+ ---> ba26701671c4
+Step 4/15 : SHELL ["powershell", "-Command", "$ErrorActionPreference = 'Stop'; $ProgressPreference = 'SilentlyContinue';"]
+ ---> Using cache
+ ---> 6b2201ad4f68
+Step 5/15 : RUN cmd /c ipconfig
+ ---> Using cache
+ ---> cc29c0f11359
+Step 6/15 : RUN cmd /c nslookup www.google.com
+ ---> Using cache
+ ---> 08b6aed8cced
+Step 7/15 : RUN Invoke-WebRequest -Uri $env:sql_express_download_url -OutFile sqlexpress.exe ;     Start-Process -Wait -FilePath .\sqlexpress.exe -ArgumentList /qs, /x:setup ;     .\setup\setup.exe /q /ACTION=Install /INSTANCENAME=SQLEXPRESS /FEATURES=SQLEngine /UPDATEENABLED=0 /SQLSVCACCOUNT='NT AUTHORITY\\System' /SQLSYSADMINACCOUNTS='BUILTIN\\ADMINISTRATORS' /TCPENABLED=1 /NPENABLED=0 /IACCEPTSQLSERVERLICENSETERMS ;     Remove-Item -Recurse -Force sqlexpress.exe, setup
+ ---> Using cache
+ ---> 76637237b9c7
+Step 8/15 : RUN stop-service MSSQL`$SQLEXPRESS ;     set-itemproperty -path 'HKLM:\\software\\microsoft\\microsoft sql server\\mssql14.SQLEXPRESS\\mssqlserver\\supersocketnetlib\\tcp\\ipall' -name tcpdynamicports -value '' ;     set-itemproperty -path 'HKLM:\\software\\microsoft\\microsoft sql server\\mssql14.SQLEXPRESS\\mssqlserver\\supersocketnetlib\\tcp\\ipall' -name tcpport -value 1433 ;     set-itemproperty -path 'HKLM:\\software\\microsoft\\microsoft sql server\\mssql14.SQLEXPRESS\\mssqlserver' -name LoginMode -value 2;
+ ---> Using cache
+ ---> e068b93fc4d8
+Step 9/15 : EXPOSE 1433
+ ---> Using cache
+ ---> a972b921c2dc
+Step 10/15 : CMD .\start -sa_password $env:sa_password -ACCEPT_EULA $env:ACCEPT_EULA -Verbose
+ ---> Using cache
+ ---> d7d8dbb5e93e
+Step 11/15 : RUN $VerbosePreference = "Continue"; Write-Verbose -Message "Starting SQL Server" ;     Start-Service -Name 'MSSQL$SQLEXPRESS' -ErrorAction Stop ;
+ ---> Using cache
+ ---> 7c48a4677828
+Step 12/15 : RUN $VerbosePreference = "Continue"; Write-Verbose -Message "Changing SA login credentials" ;     sqlcmd -Q "ALTER LOGIN sa WITH PASSWORD = '$env:sa_password'; ALTER LOGIN sa ENABLE;"
+ ---> Using cache
+ ---> 6843d83c16da
+Step 13/15 : RUN Invoke-WebRequest -Uri https://dotnetbinaries.blob.core.windows.net/servicemonitor/2.0.1.1/ServiceMonitor.exe -OutFile C:\ServiceMonitor.exe
+ ---> Using cache
+ ---> b60164ef9ab4
+Step 14/15 : ENTRYPOINT ["C:\\ServiceMonitor.exe", "MSSQL$SQLEXPRESS"]
+ ---> Using cache
+[+] Running 0/1875
+[+] Running 0/1l  Building                                                                                                                             0.7s
+ - Service mssql  Building                                                                                                                             1.1s
+[+] Running 0/1ntermediate container d3212eec8413
+ - Service mssql  Building                                                                                                                             1.3s
+[+] Running 4/4ilt a518739137b4
+ ✔ Service mssql                                   Built                                                                                               1.3s
+ ✔ mssql                                           Built                                                                                               0.0s
+ ✔ Network mssql-server-windows-express_default    Created                                                                                             2.1s
+ ✔ Container mssql-server-windows-express-mssql-1  Started                                                                                            18.3s
+
+C:\Users\anubh\Downloads\OSWE Labs\OSWE-Labs-Poc\DotNetNuke-DNN\mssql-server-windows-express>docker ps
+CONTAINER ID   IMAGE                    COMMAND                   CREATED          STATUS          PORTS                    NAMES
+8b5abf9976fd   mssql-windows:express    "C:\\ServiceMonitor.e…"   25 seconds ago   Up 7 seconds    0.0.0.0:1433->1433/tcp   mssql-server-windows-express-mssql-1
+25e02a809d2d   dnn-platform:9.1.0.367   "C:\\ServiceMonitor.e…"   53 minutes ago   Up 53 minutes   0.0.0.0:80->80/tcp       dnn-platform-911129-232-web-dnn-1
+
+C:\Users\anubh\Downloads\OSWE Labs\OSWE-Labs-Poc\DotNetNuke-DNN\mssql-server-windows-express>docker exec -it mssql-server-windows-express-mssql-1 sqlcmd -S localhost -U sa -P P@ssw0rd -Q "SELECT name FROM sys.databases"
+Sqlcmd: Error: Microsoft ODBC Driver 13 for SQL Server : Login failed for user 'sa'..
+
+C:\Users\anubh\Downloads\OSWE Labs\OSWE-Labs-Poc\DotNetNuke-DNN\mssql-server-windows-express>docker exec -it mssql-server-windows-express-mssql-1 sqlcmd -S localhost -U sa -P P@ssw0rd -Q "SELECT name FROM sys.databases"
+Sqlcmd: Error: Microsoft ODBC Driver 13 for SQL Server : Login failed for user 'sa'..
+
+C:\Users\anubh\Downloads\OSWE Labs\OSWE-Labs-Poc\DotNetNuke-DNN\mssql-server-windows-express>docker logs mssql-server-windows-express-mssql-1
+
+C:\Users\anubh\Downloads\OSWE Labs\OSWE-Labs-Poc\DotNetNuke-DNN\mssql-server-windows-express>Data Source=mssql-server-windows-express-mssql-1;Initial Catalog=DnnDatabase;User ID=sa;Password=P@ssw0rd
+'Data' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\anubh\Downloads\OSWE Labs\OSWE-Labs-Poc\DotNetNuke-DNN\mssql-server-windows-express>docker-compose down
+time="2025-02-20T04:01:55+05:30" level=warning msg="C:\\Users\\anubh\\Downloads\\OSWE Labs\\OSWE-Labs-Poc\\DotNetNuke-DNN\\mssql-server-windows-express\\docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion"
+[+] Running 2/2
+ ✔ Container mssql-server-windows-express-mssql-1  Removed                                                                                                           1.7s
+ ✔ Network mssql-server-windows-express_default    Removed                                                                                                           2.7s
+
+C:\Users\anubh\Downloads\OSWE Labs\OSWE-Labs-Poc\DotNetNuke-DNN\mssql-server-windows-express>docker-compose build
+time="2025-02-20T04:02:04+05:30" level=warning msg="C:\\Users\\anubh\\Downloads\\OSWE Labs\\OSWE-Labs-Poc\\DotNetNuke-DNN\\mssql-server-windows-express\\docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion"
+[+] Building 0/1
+ - Service mssql  Building                                                                                                                                           0.4s
+Sending build context to Docker daemon   1.19kB
+Step 1/15 : FROM mcr.microsoft.com/windows/servercore:ltsc2019
+ ---> 73684753fcee
+Step 2/15 : ENV sql_express_download_url "https://go.microsoft.com/fwlink/?linkid=829176"
+ ---> Using cache
+ ---> 53f5a2c4fd11
+Step 3/15 : ENV sa_password="P@ssw0rd"
+ ---> Using cache
+ ---> ba26701671c4
+Step 4/15 : SHELL ["powershell", "-Command", "$ErrorActionPreference = 'Stop'; $ProgressPreference = 'SilentlyContinue';"]
+ ---> Using cache
+ ---> 6b2201ad4f68
+Step 5/15 : RUN cmd /c ipconfig
+ ---> Using cache
+ ---> cc29c0f11359
+Step 6/15 : RUN cmd /c nslookup www.google.com
+ ---> Using cache
+ ---> 08b6aed8cced
+Step 7/15 : RUN Invoke-WebRequest -Uri $env:sql_express_download_url -OutFile sqlexpress.exe ;     Start-Process -Wait -FilePath .\sqlexpress.exe -ArgumentList /qs, /x:setup ;     .\setup\setup.exe /q /ACTION=Install /INSTANCENAME=SQLEXPRESS /FEATURES=SQLEngine /UPDATEENABLED=0 /SQLSVCACCOUNT='NT AUTHORITY\\System' /SQLSYSADMINACCOUNTS='BUILTIN\\ADMINISTRATORS' /TCPENABLED=1 /NPENABLED=0 /IACCEPTSQLSERVERLICENSETERMS ;     Remove-Item -Recurse -Force sqlexpress.exe, setup
+ ---> Using cache
+ ---> 76637237b9c7
+Step 8/15 : RUN stop-service MSSQL`$SQLEXPRESS ;     set-itemproperty -path 'HKLM:\\software\\microsoft\\microsoft sql server\\mssql14.SQLEXPRESS\\mssqlserver\\supersocketnetlib\\tcp\\ipall' -name tcpdynamicports -value '' ;     set-itemproperty -path 'HKLM:\\software\\microsoft\\microsoft sql server\\mssql14.SQLEXPRESS\\mssqlserver\\supersocketnetlib\\tcp\\ipall' -name tcpport -value 1433 ;     set-itemproperty -path 'HKLM:\\software\\microsoft\\microsoft sql server\\mssql14.SQLEXPRESS\\mssqlserver' -name LoginMode -value 2;
+ ---> Using cache
+ ---> e068b93fc4d8
+Step 9/15 : EXPOSE 1433
+ ---> Using cache
+ ---> a972b921c2dc
+Step 10/15 : CMD .\start -sa_password $env:sa_password -ACCEPT_EULA $env:ACCEPT_EULA -Verbose
+ ---> Using cache
+ ---> d7d8dbb5e93e
+Step 11/15 : RUN $VerbosePreference = "Continue"; Write-Verbose -Message "Starting SQL Server" ;     Start-Service -Name 'MSSQL$SQLEXPRESS' -ErrorAction Stop ;
+ ---> Using cache
+ ---> 7c48a4677828
+Step 12/15 : RUN $VerbosePreference = "Continue"; Write-Verbose -Message "Changing SA login credentials" ;     sqlcmd -Q "ALTER LOGIN sa WITH PASSWORD = '$env:sa_password'; ALTER LOGIN sa ENABLE;"
+ ---> Using cache
+ ---> 6843d83c16da
+Step 13/15 : RUN Invoke-WebRequest -Uri https://dotnetbinaries.blob.core.windows.net/servicemonitor/2.0.1.1/ServiceMonitor.exe -OutFile C:\ServiceMonitor.exe
+ ---> Using cache
+ ---> b60164ef9ab4
+Step 14/15 : ENTRYPOINT ["C:\\ServiceMonitor.exe", "MSSQL$SQLEXPRESS"]
+ ---> Using cache
+ ---> aea504268875
+Step 15/15 : LABEL com.docker.compose.image.builder=classic
+ ---> Using cache
+ ---> a518739137b4
+[+] Building 2/2lt a518739137b4
+ ✔ Service mssql  Built                                                                                                                                              0.5s
+ ✔ mssql          Built                                                                                                                                              0.0s
+
+C:\Users\anubh\Downloads\OSWE Labs\OSWE-Labs-Poc\DotNetNuke-DNN\mssql-server-windows-express>docker-compose up -d
+time="2025-02-20T04:02:14+05:30" level=warning msg="C:\\Users\\anubh\\Downloads\\OSWE Labs\\OSWE-Labs-Poc\\DotNetNuke-DNN\\mssql-server-windows-express\\docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion"
+[+] Running 2/2
+ ✔ Network mssql-server-windows-express_default    Created                                                                                                           2.0s
+ ✔ Container mssql-server-windows-express-mssql-1  Started                                                                                                          19.3s
+
+C:\Users\anubh\Downloads\OSWE Labs\OSWE-Labs-Poc\DotNetNuke-DNN\mssql-server-windows-express>docker exec -it mssql sqlcmd -S localhost -U sa -P P@ssw0rd -Q "SELECT name FROM sys.databases"
+Error response from daemon: No such container: mssql
+
+C:\Users\anubh\Downloads\OSWE Labs\OSWE-Labs-Poc\DotNetNuke-DNN\mssql-server-windows-express>docker exec -it mssql sqlcmd -S localhost -U sa -P P@ssw0rd -Q "SELECT name FROM sys.databases"
+Error response from daemon: No such container: mssql
+
+C:\Users\anubh\Downloads\OSWE Labs\OSWE-Labs-Poc\DotNetNuke-DNN\mssql-server-windows-express>docker exec -it mssql sqlcmd -S localhost -U sa -P P@ssw0rd -Q "SELECT name FROM sys.databases"docker ps
+
+C:\Users\anubh\Downloads\OSWE Labs\OSWE-Labs-Poc\DotNetNuke-DNN\mssql-server-windows-express>docker ps
+CONTAINER ID   IMAGE                    COMMAND                   CREATED             STATUS          PORTS                    NAMES
+363e9812b7f4   mssql-windows:express    "C:\\ServiceMonitor.e…"   43 seconds ago      Up 23 seconds   0.0.0.0:1433->1433/tcp   mssql-server-windows-express-mssql-1
+25e02a809d2d   dnn-platform:9.1.0.367   "C:\\ServiceMonitor.e…"   About an hour ago   Up 59 minutes   0.0.0.0:80->80/tcp       dnn-platform-911129-232-web-dnn-1
+
+C:\Users\anubh\Downloads\OSWE Labs\OSWE-Labs-Poc\DotNetNuke-DNN\mssql-server-windows-express>docker exec -it mssql-server-windows-express-mssql-1 sqlcmd -S localhost -U sa -P P@ssw0rd -Q "SELECT name FROM sys.databases"
+Sqlcmd: Error: Microsoft ODBC Driver 13 for SQL Server : Login failed for user 'sa'..
+
+C:\Users\anubh\Downloads\OSWE Labs\OSWE-Labs-Poc\DotNetNuke-DNN\mssql-server-windows-express>docker exec -it 363e9812b7f4 sqlcmd -S localhost -U sa -P P@ssw0rd -Q "SELECT name FROM sys.databases"
+Sqlcmd: Error: Microsoft ODBC Driver 13 for SQL Server : Login failed for user 'sa'..
+
+C:\Users\anubh\Downloads\OSWE Labs\OSWE-Labs-Poc\DotNetNuke-DNN\mssql-server-windows-express>docker logs mssql-server-windows-express-mssql-1
+
+C:\Users\anubh\Downloads\OSWE Labs\OSWE-Labs-Poc\DotNetNuke-DNN\mssql-server-windows-express>docker exec -it mssql-server-windows-express-mssql-1 powershell
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+PS C:\> sqlcmd -S localhost -U sa -P P@ssw0rd
+Sqlcmd: Error: Microsoft ODBC Driver 13 for SQL Server : Login failed for user 'sa'..
+PS C:\> sqlcmd -S localhost -E
+1> EXEC sp_configure 'show advanced options', 1;
+2> RECONFIGURE;
+3> EXEC sp_configure 'Authentication Mode', 2;  -- 2 = Mixed Mode (SQL + Windows)
+4> RECONFIGURE;
+5> ALTER LOGIN sa ENABLE;
+6> ALTER LOGIN sa WITH PASSWORD = 'P@ssw0rd';
+7> GO
+Configuration option 'show advanced options' changed from 0 to 1. Run the RECONFIGURE statement to install.
+Msg 15123, Level 16, State 1, Server 363E9812B7F4\SQLEXPRESS, Procedure sp_configure, Line 62
+The configuration option 'Authentication Mode' does not exist, or it may be an advanced option.
+1>
+2> USE master;
+3> EXEC xp_instance_regread
+4>     N'HKEY_LOCAL_MACHINE',
+5>     N'Software\Microsoft\MSSQLServer\MSSQLServer',
+6>     N'LoginMode';
+7> GO
+Changed database context to 'master'.
+Value
+                                                                                      Data
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------- -----------
+LoginMode
+                                                                                                2
+
+(1 rows affected)
+1> Restart-Service MSSQL$SQLEXPRESS
+2> ALTER LOGIN sa ENABLE;
+3> ALTER LOGIN sa WITH PASSWORD = 'P@ssw0rd';
+4> GO
+Msg 102, Level 15, State 1, Server 363E9812B7F4\SQLEXPRESS, Line 1
+Incorrect syntax near 'Service'.
+1> ALTER LOGIN [sa] ENABLE;
+2> GO
+1> ALTER LOGIN [sa] WITH PASSWORD = 'P@ssw0rd';
+2>
+3> GO
+1> exit
+PS C:\> exit
+
+C:\Users\anubh\Downloads\OSWE Labs\OSWE-Labs-Poc\DotNetNuke-DNN\mssql-server-windows-express>docker ps
+CONTAINER ID   IMAGE                    COMMAND                   CREATED             STATUS             PORTS                    NAMES
+363e9812b7f4   mssql-windows:express    "C:\\ServiceMonitor.e…"   8 minutes ago       Up 8 minutes       0.0.0.0:1433->1433/tcp   mssql-server-windows-express-mssql-1
+25e02a809d2d   dnn-platform:9.1.0.367   "C:\\ServiceMonitor.e…"   About an hour ago   Up About an hour   0.0.0.0:80->80/tcp       dnn-platform-911129-232-web-dnn-1
+
+C:\Users\anubh\Downloads\OSWE Labs\OSWE-Labs-Poc\DotNetNuke-DNN\mssql-server-windows-express>docker restart mssql-server-windows-express-mssql-1
+Post "http://%2F%2F.%2Fpipe%2FdockerDesktopWindowsEngine/v1.47/containers/mssql-server-windows-express-mssql-1/restart": context canceled
+
+C:\Users\anubh\Downloads\OSWE Labs\OSWE-Labs-Poc\DotNetNuke-DNN\mssql-server-windows-express>
+C:\Users\anubh\Downloads\OSWE Labs\OSWE-Labs-Poc\DotNetNuke-DNN\mssql-server-windows-express>
+C:\Users\anubh\Downloads\OSWE Labs\OSWE-Labs-Poc\DotNetNuke-DNN\mssql-server-windows-express>docker restart mssql-server-windows-express-mssql-1
+Post "http://%2F%2F.%2Fpipe%2FdockerDesktopWindowsEngine/v1.47/containers/mssql-server-windows-express-mssql-1/restart": context canceled
+
+C:\Users\anubh\Downloads\OSWE Labs\OSWE-Labs-Poc\DotNetNuke-DNN\mssql-server-windows-express>docker-compose down
+time="2025-02-20T04:15:03+05:30" level=warning msg="C:\\Users\\anubh\\Downloads\\OSWE Labs\\OSWE-Labs-Poc\\DotNetNuke-DNN\\mssql-server-windows-express\\docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion"
+[+] Running 1/1
+ ✘ Container mssql-server-windows-express-mssql-1  Error while Stopping                                                                                            360.0s
+canceled
+
+C:\Users\anubh\Downloads\OSWE Labs\OSWE-Labs-Poc\DotNetNuke-DNN\mssql-server-windows-express>docker-compose down
+time="2025-02-20T04:21:05+05:30" level=warning msg="C:\\Users\\anubh\\Downloads\\OSWE Labs\\OSWE-Labs-Poc\\DotNetNuke-DNN\\mssql-server-windows-express\\docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion"
+[+] Running 1/1
+ ✘ Container mssql-server-windows-express-mssql-1  Error while Stopping                                                                                            450.0s
+canceled
+
+C:\Users\anubh\Downloads\OSWE Labs\OSWE-Labs-Poc\DotNetNuke-DNN\mssql-server-windows-express>
